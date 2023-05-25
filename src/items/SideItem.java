@@ -1,0 +1,37 @@
+package items;
+
+public class SideItem extends Item {
+
+    public SideItem(String type, double price) {
+        super(type, price);
+    }
+
+    public SideItem() {
+        super();
+    }
+
+    @Override
+    public String getType() {
+        return super.getType();
+    }
+
+    @Override
+    public void setType(String type) {
+        super.setType(type);
+    }
+
+    @Override
+    public double getPrice() {
+        return super.getPrice();
+    }
+
+    @Override
+    public void setPrice(double price) {
+        super.setPrice(price);
+    }
+
+    @Override
+    public void takeOrder(String[] itemType, double[] itemPrice) {
+        super.takeOrder(itemType, itemPrice);
+    }
+}
